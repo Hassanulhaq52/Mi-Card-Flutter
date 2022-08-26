@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 #Fri Aug 26 18:35:12 PKT 2022
+=======
+#Fri Aug 26 16:31:47 PKT 2022
+>>>>>>> 5b9d096f3d6720edce859c2add33b7ef8398c4fa
 base.0=G\:\\flutter_projects\\mi_card_flutter\\build\\app\\intermediates\\dex\\debug\\mergeDexDebug\\classes.dex
 renamed.0=classes.dex
 path.0=classes.dex

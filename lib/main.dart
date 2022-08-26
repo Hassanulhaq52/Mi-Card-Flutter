@@ -11,6 +11,7 @@ class MyApp extends StatelessWidget {
       home: Scaffold(
         backgroundColor: Colors.teal,
         body: SafeArea(
+<<<<<<< HEAD
           child: Column(
             mainAxisAlignment: MainAxisAlignment.center,
             children: <Widget>[
@@ -43,6 +44,24 @@ class MyApp extends StatelessWidget {
             ],
           ),
         ),
+=======
+            child: Column(
+          children: <Widget>[
+            CircleAvatar(
+              radius: 50.0,
+              backgroundImage: AssetImage('images/my-picture-full.jpg'),
+            ),
+            Text(
+                'Hassan Ul Haq',
+            style: TextStyle(
+              color: Colors.white,
+              fontSize: 40.0,
+              fontWeight: FontWeight.bold,
+            ),
+            )
+          ],
+        )),
+>>>>>>> 5b9d096f3d6720edce859c2add33b7ef8398c4fa
       ),
     );
   }
