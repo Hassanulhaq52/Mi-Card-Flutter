@@ -12,26 +12,21 @@ class MyApp extends StatelessWidget {
         backgroundColor: Colors.green,
         body: SafeArea(
             child: Column(
-              crossAxisAlignment: CrossAxisAlignment.stretch,
-                children: <Widget>[
-          Container(
-            height: 100.0,
-            color: Colors.red,
-            child: Text('Container 1'),
-          ),
-          SizedBox(height: 30.0),
-          Container(
-            height: 100.0,
-            color: Colors.blue,
-            child: Text('Container 2'),
-          ),
-          SizedBox(height: 30.0),
-          Container(
-            height: 100.0,
-            color: Colors.indigoAccent,
-            child: Text('Container 3'),
-          ),
-        ])),
+          children: <Widget>[
+            CircleAvatar(
+              radius: 50.0,
+              backgroundImage: AssetImage('images/my-picture-full.jpg'),
+            ),
+            Text(
+                'Hassan Ul Haq',
+            style: TextStyle(
+              color: Colors.white,
+              fontSize: 40.0,
+              fontWeight: FontWeight.bold,
+            ),
+            )
+          ],
+        )),
       ),
     );
   }
