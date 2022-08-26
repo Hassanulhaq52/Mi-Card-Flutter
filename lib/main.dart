@@ -11,7 +11,6 @@ class MyApp extends StatelessWidget {
       home: Scaffold(
         backgroundColor: Colors.teal,
         body: SafeArea(
-<<<<<<< HEAD
           child: Column(
             mainAxisAlignment: MainAxisAlignment.center,
             children: <Widget>[
@@ -41,27 +40,67 @@ class MyApp extends StatelessWidget {
                   // fontWeight: FontWeight.bold,
                 ),
               ),
+              Container(
+                margin: EdgeInsets.symmetric(
+                  vertical: 10.0,
+                  horizontal: 25.0,
+                ),
+                color: Colors.white,
+                padding: EdgeInsets.all(10.0),
+                child: Row(
+                  children: <Widget>[
+
+                    Icon(
+                      Icons.phone,
+                      size: 25.0,
+                      color: Colors.teal,
+                    ),
+                    SizedBox(width: 10.0),
+                    Text(
+                      '+923152204249',
+                    style: TextStyle(
+                      fontFamily: 'Source Sans Pro',
+                      color: Colors.teal.shade900,
+                      fontSize: 20.0,
+                    ),
+                    ),
+
+                  ],
+                ),
+
+              ),
+              Container(
+                margin: EdgeInsets.symmetric(
+                  vertical: 10.0,
+                  horizontal: 25.0,
+                ),
+                color: Colors.white,
+                padding: EdgeInsets.all(10.0),
+                child: Row(
+                  children: <Widget>[
+
+                    Icon(
+                      Icons.email,
+                      size: 25.0,
+                      color: Colors.teal,
+                    ),
+                    SizedBox(width: 10.0),
+                    Text(
+                      'Hassanulhaq214@gmail.com',
+                      style: TextStyle(
+                        fontFamily: 'Source Sans Pro',
+                        color: Colors.teal.shade900,
+                        fontSize: 20.0,
+                      ),
+                    ),
+
+                  ],
+                ),
+
+              ),
             ],
           ),
         ),
-=======
-            child: Column(
-          children: <Widget>[
-            CircleAvatar(
-              radius: 50.0,
-              backgroundImage: AssetImage('images/my-picture-full.jpg'),
-            ),
-            Text(
-                'Hassan Ul Haq',
-            style: TextStyle(
-              color: Colors.white,
-              fontSize: 40.0,
-              fontWeight: FontWeight.bold,
-            ),
-            )
-          ],
-        )),
->>>>>>> 5b9d096f3d6720edce859c2add33b7ef8398c4fa
       ),
     );
   }

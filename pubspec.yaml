@@ -24,7 +24,7 @@ flutter:
     - images/
 
 
-<<<<<<< HEAD
+
   fonts:
   - family: Pacifico
     fonts:
@@ -34,5 +34,4 @@ flutter:
     fonts:
     - asset: fonts/SourceSansPro-Regular.ttf
 
-=======
->>>>>>> 5b9d096f3d6720edce859c2add33b7ef8398c4fa
+
